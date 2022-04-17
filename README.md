@@ -1,5 +1,3 @@
-# run-buddy
-
 # Run Buddy
 
 
