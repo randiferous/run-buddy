@@ -28,7 +28,21 @@ header {
 
     justify-content: space-between;
 
-    flex-wrap: wrap
+    flex-wrap: wrap;
+
+    position: -webkit- sticky;
+
+    position: sticky;
+
+    top: 0;
+
+    background-image: url("../images/hero-bg.jpg");
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    background-position: 80%;
 
 }
 
@@ -68,6 +82,8 @@ header nav ul li a {
 
     font-size: 1.55vw;
 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 header h1 {
@@ -79,6 +95,8 @@ header h1 {
     color: #fce138;
 
     margin: 0;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -97,7 +115,9 @@ section {
 
     background-size: cover;
 
-    background-position: center;
+    background-attachment: fixed;
+
+    background-position: 80%;
 
     display: flex;
 
@@ -133,13 +153,15 @@ section {
 
     color: #fce138;
 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .hero-form {
 
     border: 3px solid #024e76;
 
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
 
     padding: 20px;
 
@@ -148,6 +170,10 @@ section {
     width: 40%;
 
     margin: 3.5%;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 15px;
 
 }
 
@@ -180,6 +206,8 @@ section {
 
     margin-bottom: 15px;
 
+    border-radius: 10px;
+
 }
 
 .hero-form label {
@@ -199,6 +227,8 @@ section {
     padding: 10px 20px;
 
     font-size: 16px;
+
+    border-radius: 10px;
 
 }
 
@@ -498,6 +528,8 @@ section {
 
     margin-top: 5px;
 
+    border-radius: 10px;
+
 }
 
 .contact-form button {
@@ -515,6 +547,8 @@ section {
     padding: 15px 0;
 
     font-size: 16px;
+
+    border-radius: 10px;
 
 }
 
@@ -573,6 +607,8 @@ footer a {
         padding-bottom: 0;
 
         justify-content: center;
+
+        position: relative;
 
     }
 
