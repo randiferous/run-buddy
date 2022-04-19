@@ -86,6 +86,18 @@ header nav ul li a {
 
 }
 
+header nav ul li a:hover {
+
+    background: #fce138;
+
+    color: #024e76;
+
+    border-radius: 15px;
+
+    text-shadow: none;
+
+}
+
 header h1 {
 
     font-weight: bold;
@@ -208,6 +220,16 @@ section {
 
     border-radius: 10px;
 
+    background-color: rgba(255,255,255, 0.75);
+
+}
+
+.form-input:focus {
+
+    background-color: rgba(255,255,255, 1);
+
+    outline: none;
+
 }
 
 .hero-form label {
@@ -229,6 +251,12 @@ section {
     font-size: 16px;
 
     border-radius: 10px;
+
+}
+
+.hero-form button:hover {
+
+    background-color: #39a6b2;
 
 }
 
@@ -289,8 +317,6 @@ section {
 
     width: 80%;
 
-    border-bottom: 1px solid #39a6b2;
-
     display: flex;
 
     flex-wrap: wrap;
@@ -301,6 +327,11 @@ section {
 
 }
 
+.step:not(:last-child) {
+
+    border-bottom: 1px solid #39a6b2;
+
+}
 
 .step h3 {
 
@@ -530,6 +561,16 @@ section {
 
     border-radius: 10px;
 
+    background-color: rgba(255,255,255, 0.75);
+
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+
+    background-color: rgba(255,255,255, 1);
+
+    outline: none;
+
 }
 
 .contact-form button {
@@ -549,6 +590,14 @@ section {
     font-size: 16px;
 
     border-radius: 10px;
+
+}
+
+.contact-form button:hover {
+
+    color: #fce138;
+
+    background: #39a6b2;
 
 }
 
